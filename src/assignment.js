@@ -32,12 +32,9 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  let count = 0
-  for(let number of arrayOfNumbers) {
-    if(number % 2 === 0) count++
-  }
-  return count
+    return arrayOfNumbers.length;
 }
+// assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
