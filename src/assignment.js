@@ -21,7 +21,6 @@ function sumOfNumbers(arrayOfNumbers) {
   return sum
 }
 
-sumOfNumbers([2, 2, 3])
 
 /**
  * Challenge - 2
@@ -39,8 +38,7 @@ function countEvenNumbers(arrayOfNumbers) {
   }
   return count
 }
-
-countEvenNumbers([2,4,6,8,10,3,4.7,9,10,6,8])
+// assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
