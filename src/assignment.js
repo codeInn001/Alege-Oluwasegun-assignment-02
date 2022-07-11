@@ -33,9 +33,14 @@ sumOfNumbers([2, 2, 3])
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
+  let count = 0
+  for(let number of arrayOfNumbers) {
+    if(number % 2 === 0) count++
+  }
+  return count
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+
+countEvenNumbers([2,4,6,8,10,3,4.7,9,10,6,8])
 
 /**
  * Challenge - 3
